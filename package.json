@@ -1,0 +1,21 @@
+{
+  "name": "video-hlsjs-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/video-hlsjs-sample.git",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel index.html"
+  },
+  "devDependencies": {
+    "@types/hls.js": "^0.12.4",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "hls.js": "^0.12.4",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.5"
+  }
+}
